@@ -1,10 +1,11 @@
 {
   "name": "traininhand",
   "version": "1.0.0",
-  "description": "Know the train status, pnr status and seat availability",
+  "description": "Know the TRAIN STATUS, PNR STATUS and SEAT AVAILABILITY",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
