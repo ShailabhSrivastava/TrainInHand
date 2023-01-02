@@ -1,0 +1,24 @@
+{
+  "name": "traininhand",
+  "version": "1.0.0",
+  "description": "Know the train status, pnr status and seat availability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShailabhSrivastava/TrainInHand.git"
+  },
+  "author": "Shailabh Srivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShailabhSrivastava/TrainInHand/issues"
+  },
+  "homepage": "https://github.com/ShailabhSrivastava/TrainInHand#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
+}
