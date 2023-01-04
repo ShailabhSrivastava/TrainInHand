@@ -6,15 +6,15 @@ const app = express();
 
 app.use(bodyParser.json());
 
-mongoose
-  .connect(
-    "mongodb+srv://ShailabhSrivastava:LtR74yQBXKkSdvyd@cluster0.cxb6bki.mongodb.net/TRAIN",
-    {
-      useNewUrlParser: true,
-    }
-  )
-  .then(() => console.log("MongoDb is connected"))
-  .catch((err) => console.log(err));
+// mongoose
+//   .connect(
+//     "mongodb+srv://ShailabhSrivastava:LtR74yQBXKkSdvyd@cluster0.cxb6bki.mongodb.net/TRAIN",
+//     {
+//       useNewUrlParser: true,
+//     }
+//   )
+//   .then(() => console.log("MongoDb is connected"))
+//   .catch((err) => console.log(err));
 
 app.use("/", route);
 
